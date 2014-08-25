@@ -30,11 +30,10 @@ shinyUI(fluidPage(
                      'Single Quote'="'"),
                    '"'),
       tags$hr(),
-      p('If you want a sample .csv or .tsv file to upload,',
+      p('If you want a sample .csv file to upload,',
         'you can first download the sample',
-        a(href = 'mtcars.csv', 'mtcars.csv'), 'or',
-        a(href = 'pressure.tsv', 'pressure.tsv'),
-        'files, and then try uploading them.'
+        a(href = 'mtcars.csv', 'mtcars.csv'), 
+        'files, and then try uploading it.'
       ),
       sliderInput(inputId = "height",
                   label = "Picture height",                            
